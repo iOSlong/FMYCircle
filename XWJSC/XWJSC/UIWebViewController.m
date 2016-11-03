@@ -23,9 +23,6 @@
 @implementation UIWebViewController
 
 
-
-
-
 - (UIWebView *)webView {
     if (!_webView) {
         _webView = [[UIWebView alloc] initWithFrame:CGRectMake(0,_textField.frame.origin.y + 150, [UIScreen mainScreen].bounds.size.width, self.view.frame.size.height - _textField.frame.origin.y - 100)];
@@ -73,6 +70,7 @@
     [self loadLocalItems];
 
     [self loadWebContent];
+    
     
 }
 
@@ -130,7 +128,7 @@
     }
     else if (btn.tag == 2)
     {
-        NSDictionary *dict = @{@"title":_textField.text};
+        NSDictionary *dict = @{@"title":_textField.text, @"number":[NSNumber numberWithInteger:arc4random()%9999999]};
         NSData  *data = [NSJSONSerialization dataWithJSONObject:dict options:NSJSONWritingPrettyPrinted error:nil];
         NSString *jsonString = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
         jsonString = [jsonString stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];  //去除掉首尾的空白字符和换行字符
@@ -138,7 +136,11 @@
         if (_textField.text.length == 0) {
             callJS = @"nativeGiveVal()";
         }
-        [self.jsContext evaluateScript:callJS];
+        JSValue *jsValue = [self.jsContext evaluateScript:callJS];
+        if (jsValue) {
+            NSLog(@"%@",jsValue);
+            self.textField.text = [NSString stringWithFormat:@"js back:%@",jsValue];
+        }
     }
 }
 
