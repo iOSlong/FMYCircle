@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+    </head>
+    
+    <body>
+        <h1  style="color:red">MKWebView Tag<h1>
+
+        <h1 align="center" class="native" id="title"  style="color:blue" >wait for Native</h1>
+
+            <p><h2>* JS Call Native through 'ScriptMessageHandler' </h2><p>
+            <p>
+            <input type="button" value="a. withoutParam(MKWeb)" onclick="btnClicka()" style="width:500px;height:50px;margin-top:30px;font-size:20px;"/>
+            <br/>
+            <input type="button" value="b. withParam(10)(MKWeb)" onclick="btnClickb()" style="width:500px;height:50px;margin-top:40px;font-size:20px;"/>
+            <br/>
+            <input type="button" value="c. withParam(item)(MKWeb) and return" onclick="btnClickc()" style="width:500px;height:50px;margin-top:40px;font-size:20px;"/>
+            <br/>
+            
+            </body>
+    <script type="text/javascript">
+           <!--        Script MessageHandler-->
+    function btnClicka(){
+        window.webkit.messageHandlers.jsCallNoti1.postMessage(null);
+    }
+    
+    function btnClickb(){
+        window.webkit.messageHandlers.jsCallNoti2.postMessage({body:["you","are","good"]});
+    }
+    function btnClickc(){
+        alert("mkWebView can't do this!");
+        alert("native giveVal:" + JSExport.jsCallMethod3({body:["One","Two","Three"]}));
+    }
+    
+    function nativeGiveVal(result){
+        if (!result) {
+            alert("empty param");
+            return;
+        }
+        var id = result.id;
+        
+        document.querySelector(".native").innerHTML = result.title;
+        
+    }
+        </script>
+    
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+    </head>
+    
+    <body>
+        <h1 style="color:red">UIWebView Tag<h1>
+            
+            <h1 align="center" class="native" id="title"  style="color:blue" >wait for Native</h1>
+
+        <p><h2>* JS Call Native through 'JSExport' </h2><p>
+        <p>
+        <input type="button" value="1. withoutParam(UIWeb)" onclick="btnClick1()" style="width:500px;height:50px;margin-top:30px;font-size:20px;"/>
+        <br/>
+        <input type="button" value="2. withParam(10)(UIWeb)" onclick="btnClick2()" style="width:500px;height:50px;margin-top:40px;font-size:20px;"/>
+        <br/>
+        <input type="button" value="3. withParam(item)(UIWeb) and return" onclick="btnClick3()" style="width:500px;height:50px;margin-top:40px;font-size:20px;"/>
+        <br/>
+        
+        <p><h2>* JS Call Native through 'Context Block' </h2><p>
+        
+        <input type="button" value="4. withoutParam(UIWeb)" onclick="btnClick4()" style="width:500px;height:50px;margin-top:30px;font-size:20px;"/>
+        <br/>
+        <input type="button" value="5. withParam(40)(UIWeb)" onclick="btnClick5()" style="width:500px;height:50px;margin-top:40px;font-size:20px;"/>
+        <br/>
+        <input type="button" value="6. withParam(item)(UIWeb) and return" onclick="btnClick6()" style="width:500px;height:50px;margin-top:40px;font-size:20px;"/>
+        </p>
+
+
+    </body>
+    <script type="text/javascript">
+<!--        JSContext JSExport-->
+    function btnClick1(){
+        JSExport.jsCallMethod1();
+    }
+    
+    function btnClick2(){
+        JSExport.jsCallMethod2(20);
+    }
+    function btnClick3(){
+        alert("native giveVal:" + JSExport.jsCallMethod3({body:["One","Two","Three"]}));
+    }
+    
+<!--    JSContext  block -->
+    function btnClick4(){
+        jsCallMethod4();
+    }
+    
+    function btnClick5(){
+        jsCallMethod5(40);
+    }
+    function btnClick6(){
+        alert("native giveVal:" + jsCallMethod6({body:["you","are","good"]}));
+    }
+    
+    function nativeGiveVal(result){
+        if (!result) {
+            alert("empty param");
+            return;
+        }
+        var id = result.id;
+
+        document.querySelector(".native").innerHTML = result.title;
+
+    }
+
+
+        </script>
+    
+</html>
