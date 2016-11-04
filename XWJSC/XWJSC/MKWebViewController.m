@@ -131,7 +131,7 @@
     }
     else if (btn.tag == 2)
     {
-        NSDictionary *dict = @{@"title":_textField.text};
+        NSDictionary *dict = @{@"title":_textField.text, @"number":[NSNumber numberWithInteger:arc4random()%9999999]};
         NSData  *data = [NSJSONSerialization dataWithJSONObject:dict options:NSJSONWritingPrettyPrinted error:nil];
         NSString *jsonString = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
         jsonString = [jsonString stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];  //去除掉首尾的空白字符和换行字符
@@ -139,8 +139,10 @@
         if (_textField.text.length == 0) {
             callJS = @"nativeGiveVal()";
         }
+
         [self.mywkView evaluateJavaScript:callJS completionHandler:^(id _Nullable obj, NSError * _Nullable error) {
-            NSLog(@"%@",obj);
+            NSLog(@"js 返回值：%@",obj);
+            self.textField.text = [NSString stringWithFormat:@"js back:%@",obj];
         }];
     }
 }
