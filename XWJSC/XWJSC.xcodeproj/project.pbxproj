@@ -16,6 +16,8 @@
 		8E1067BE1DFF93ED002B6E52 /* NSLayoutConstraintViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1067BD1DFF93ED002B6E52 /* NSLayoutConstraintViewController.m */; };
 		8E1067C31DFF9415002B6E52 /* MKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1067C01DFF9415002B6E52 /* MKWebViewController.m */; };
 		8E1067C41DFF9415002B6E52 /* UIWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1067C21DFF9415002B6E52 /* UIWebViewController.m */; };
+		8E1067C91DFF9746002B6E52 /* UIImageView+FMY.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1067C81DFF9746002B6E52 /* UIImageView+FMY.m */; };
+		8E1067CC1DFFC945002B6E52 /* UIView+NSLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1067CB1DFFC945002B6E52 /* UIView+NSLayout.m */; };
 		8EA84BA81DC1A63D00AB1BCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA84BA71DC1A63D00AB1BCB /* main.m */; };
 		8EA84BAB1DC1A63D00AB1BCB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA84BAA1DC1A63D00AB1BCB /* AppDelegate.m */; };
 		8EA84BAE1DC1A63D00AB1BCB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA84BAD1DC1A63D00AB1BCB /* ViewController.m */; };
@@ -45,6 +47,10 @@
 		8E1067C11DFF9415002B6E52 /* UIWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIWebViewController.h; sourceTree = "<group>"; };
 		8E1067C21DFF9415002B6E52 /* UIWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIWebViewController.m; sourceTree = "<group>"; };
 		8E1067C61DFF95A0002B6E52 /* ConstantUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConstantUI.h; sourceTree = "<group>"; };
+		8E1067C71DFF9746002B6E52 /* UIImageView+FMY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+FMY.h"; sourceTree = "<group>"; };
+		8E1067C81DFF9746002B6E52 /* UIImageView+FMY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+FMY.m"; sourceTree = "<group>"; };
+		8E1067CA1DFFC945002B6E52 /* UIView+NSLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+NSLayout.h"; sourceTree = "<group>"; };
+		8E1067CB1DFFC945002B6E52 /* UIView+NSLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+NSLayout.m"; sourceTree = "<group>"; };
 		8E760FC31DD2CDEB00BF0FA3 /* 57010F03-57EA-4225-B63B-A5FD0D4A783B.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "57010F03-57EA-4225-B63B-A5FD0D4A783B.jpg"; sourceTree = "<group>"; };
 		8EA84BA31DC1A63D00AB1BCB /* XWJSC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XWJSC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EA84BA71DC1A63D00AB1BCB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -84,10 +90,14 @@
 		8E1067B21DFF90C8002B6E52 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				8E1067CA1DFFC945002B6E52 /* UIView+NSLayout.h */,
+				8E1067CB1DFFC945002B6E52 /* UIView+NSLayout.m */,
 				8E1067B31DFF9126002B6E52 /* UIView+Positioning.h */,
 				8E1067B41DFF9126002B6E52 /* UIView+Positioning.m */,
 				8E1067B61DFF9131002B6E52 /* NSString+CN.h */,
 				8E1067B71DFF9131002B6E52 /* NSString+CN.m */,
+				8E1067C71DFF9746002B6E52 /* UIImageView+FMY.h */,
+				8E1067C81DFF9746002B6E52 /* UIImageView+FMY.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -307,12 +317,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E1067C91DFF9746002B6E52 /* UIImageView+FMY.m in Sources */,
 				8E1067BE1DFF93ED002B6E52 /* NSLayoutConstraintViewController.m in Sources */,
 				8E0166111DCB1A3E0080E4AE /* WeakDelegate.m in Sources */,
 				8E1067C31DFF9415002B6E52 /* MKWebViewController.m in Sources */,
 				8E1067C41DFF9415002B6E52 /* UIWebViewController.m in Sources */,
 				8E1067B81DFF9131002B6E52 /* NSString+CN.m in Sources */,
 				8EA84BAE1DC1A63D00AB1BCB /* ViewController.m in Sources */,
+				8E1067CC1DFFC945002B6E52 /* UIView+NSLayout.m in Sources */,
 				8EA84BAB1DC1A63D00AB1BCB /* AppDelegate.m in Sources */,
 				8E1067B11DFF90B5002B6E52 /* FMYUtils.m in Sources */,
 				8EA84BA81DC1A63D00AB1BCB /* main.m in Sources */,
