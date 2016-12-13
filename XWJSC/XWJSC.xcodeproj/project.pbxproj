@@ -10,14 +10,18 @@
 		8E01660A1DC9F3A80080E4AE /* uiweb.html in Resources */ = {isa = PBXBuildFile; fileRef = 8E0166091DC9F3A80080E4AE /* uiweb.html */; };
 		8E01660E1DCAE68A0080E4AE /* mkweb.html in Resources */ = {isa = PBXBuildFile; fileRef = 8E01660D1DCAE68A0080E4AE /* mkweb.html */; };
 		8E0166111DCB1A3E0080E4AE /* WeakDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0166101DCB1A3E0080E4AE /* WeakDelegate.m */; };
+		8E1067B11DFF90B5002B6E52 /* FMYUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1067B01DFF90B5002B6E52 /* FMYUtils.m */; };
+		8E1067B51DFF9126002B6E52 /* UIView+Positioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1067B41DFF9126002B6E52 /* UIView+Positioning.m */; };
+		8E1067B81DFF9131002B6E52 /* NSString+CN.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1067B71DFF9131002B6E52 /* NSString+CN.m */; };
+		8E1067BE1DFF93ED002B6E52 /* NSLayoutConstraintViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1067BD1DFF93ED002B6E52 /* NSLayoutConstraintViewController.m */; };
+		8E1067C31DFF9415002B6E52 /* MKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1067C01DFF9415002B6E52 /* MKWebViewController.m */; };
+		8E1067C41DFF9415002B6E52 /* UIWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1067C21DFF9415002B6E52 /* UIWebViewController.m */; };
 		8EA84BA81DC1A63D00AB1BCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA84BA71DC1A63D00AB1BCB /* main.m */; };
 		8EA84BAB1DC1A63D00AB1BCB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA84BAA1DC1A63D00AB1BCB /* AppDelegate.m */; };
 		8EA84BAE1DC1A63D00AB1BCB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA84BAD1DC1A63D00AB1BCB /* ViewController.m */; };
 		8EA84BB11DC1A63D00AB1BCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EA84BAF1DC1A63D00AB1BCB /* Main.storyboard */; };
 		8EA84BB31DC1A63D00AB1BCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EA84BB21DC1A63D00AB1BCB /* Assets.xcassets */; };
 		8EA84BB61DC1A63D00AB1BCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EA84BB41DC1A63D00AB1BCB /* LaunchScreen.storyboard */; };
-		8EA84BBF1DC1A6EE00AB1BCB /* UIWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA84BBE1DC1A6EE00AB1BCB /* UIWebViewController.m */; };
-		8EA84BC21DC1A6F900AB1BCB /* MKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA84BC11DC1A6F900AB1BCB /* MKWebViewController.m */; };
 		BF6CDE607E0733D0DD691B3F /* libPods-XWJSC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA7572539D6EDB362B086F2D /* libPods-XWJSC.a */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +31,21 @@
 		8E01660D1DCAE68A0080E4AE /* mkweb.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = mkweb.html; sourceTree = "<group>"; };
 		8E01660F1DCB1A3E0080E4AE /* WeakDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeakDelegate.h; sourceTree = "<group>"; };
 		8E0166101DCB1A3E0080E4AE /* WeakDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeakDelegate.m; sourceTree = "<group>"; };
+		8E1067AF1DFF90B5002B6E52 /* FMYUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMYUtils.h; sourceTree = "<group>"; };
+		8E1067B01DFF90B5002B6E52 /* FMYUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMYUtils.m; sourceTree = "<group>"; };
+		8E1067B31DFF9126002B6E52 /* UIView+Positioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Positioning.h"; sourceTree = "<group>"; };
+		8E1067B41DFF9126002B6E52 /* UIView+Positioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Positioning.m"; sourceTree = "<group>"; };
+		8E1067B61DFF9131002B6E52 /* NSString+CN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CN.h"; sourceTree = "<group>"; };
+		8E1067B71DFF9131002B6E52 /* NSString+CN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CN.m"; sourceTree = "<group>"; };
+		8E1067BA1DFF923E002B6E52 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		8E1067BC1DFF93ED002B6E52 /* NSLayoutConstraintViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSLayoutConstraintViewController.h; sourceTree = "<group>"; };
+		8E1067BD1DFF93ED002B6E52 /* NSLayoutConstraintViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSLayoutConstraintViewController.m; sourceTree = "<group>"; };
+		8E1067BF1DFF9415002B6E52 /* MKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKWebViewController.h; sourceTree = "<group>"; };
+		8E1067C01DFF9415002B6E52 /* MKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKWebViewController.m; sourceTree = "<group>"; };
+		8E1067C11DFF9415002B6E52 /* UIWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIWebViewController.h; sourceTree = "<group>"; };
+		8E1067C21DFF9415002B6E52 /* UIWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIWebViewController.m; sourceTree = "<group>"; };
+		8E1067C61DFF95A0002B6E52 /* ConstantUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConstantUI.h; sourceTree = "<group>"; };
+		8E760FC31DD2CDEB00BF0FA3 /* 57010F03-57EA-4225-B63B-A5FD0D4A783B.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "57010F03-57EA-4225-B63B-A5FD0D4A783B.jpg"; sourceTree = "<group>"; };
 		8EA84BA31DC1A63D00AB1BCB /* XWJSC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XWJSC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EA84BA71DC1A63D00AB1BCB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8EA84BA91DC1A63D00AB1BCB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -37,10 +56,6 @@
 		8EA84BB21DC1A63D00AB1BCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8EA84BB51DC1A63D00AB1BCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8EA84BB71DC1A63D00AB1BCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8EA84BBD1DC1A6EE00AB1BCB /* UIWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIWebViewController.h; sourceTree = "<group>"; };
-		8EA84BBE1DC1A6EE00AB1BCB /* UIWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIWebViewController.m; sourceTree = "<group>"; };
-		8EA84BC01DC1A6F900AB1BCB /* MKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKWebViewController.h; sourceTree = "<group>"; };
-		8EA84BC11DC1A6F900AB1BCB /* MKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKWebViewController.m; sourceTree = "<group>"; };
 		AA7572539D6EDB362B086F2D /* libPods-XWJSC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XWJSC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEE9B06E3F2255BBE4A32881 /* Pods-XWJSC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XWJSC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XWJSC/Pods-XWJSC.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -57,6 +72,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E1067AE1DFF8FE6002B6E52 /* FMYUtils */ = {
+			isa = PBXGroup;
+			children = (
+				8E1067AF1DFF90B5002B6E52 /* FMYUtils.h */,
+				8E1067B01DFF90B5002B6E52 /* FMYUtils.m */,
+			);
+			path = FMYUtils;
+			sourceTree = "<group>";
+		};
+		8E1067B21DFF90C8002B6E52 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				8E1067B31DFF9126002B6E52 /* UIView+Positioning.h */,
+				8E1067B41DFF9126002B6E52 /* UIView+Positioning.m */,
+				8E1067B61DFF9131002B6E52 /* NSString+CN.h */,
+				8E1067B71DFF9131002B6E52 /* NSString+CN.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		8E1067BB1DFF9383002B6E52 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8E1067BF1DFF9415002B6E52 /* MKWebViewController.h */,
+				8E1067C01DFF9415002B6E52 /* MKWebViewController.m */,
+				8E1067C11DFF9415002B6E52 /* UIWebViewController.h */,
+				8E1067C21DFF9415002B6E52 /* UIWebViewController.m */,
+				8E1067BC1DFF93ED002B6E52 /* NSLayoutConstraintViewController.h */,
+				8E1067BD1DFF93ED002B6E52 /* NSLayoutConstraintViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8E1067C51DFF9575002B6E52 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				8E1067C61DFF95A0002B6E52 /* ConstantUI.h */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
 		8EA84B9A1DC1A63D00AB1BCB = {
 			isa = PBXGroup;
 			children = (
@@ -78,16 +134,17 @@
 		8EA84BA51DC1A63D00AB1BCB /* XWJSC */ = {
 			isa = PBXGroup;
 			children = (
+				8E1067C51DFF9575002B6E52 /* Constants */,
+				8E1067BB1DFF9383002B6E52 /* ViewControllers */,
+				8E1067B21DFF90C8002B6E52 /* Categories */,
+				8E1067AE1DFF8FE6002B6E52 /* FMYUtils */,
+				8E760FC31DD2CDEB00BF0FA3 /* 57010F03-57EA-4225-B63B-A5FD0D4A783B.jpg */,
 				8EA84BA91DC1A63D00AB1BCB /* AppDelegate.h */,
 				8EA84BAA1DC1A63D00AB1BCB /* AppDelegate.m */,
 				8EA84BAC1DC1A63D00AB1BCB /* ViewController.h */,
 				8EA84BAD1DC1A63D00AB1BCB /* ViewController.m */,
 				8E01660F1DCB1A3E0080E4AE /* WeakDelegate.h */,
 				8E0166101DCB1A3E0080E4AE /* WeakDelegate.m */,
-				8EA84BBD1DC1A6EE00AB1BCB /* UIWebViewController.h */,
-				8EA84BBE1DC1A6EE00AB1BCB /* UIWebViewController.m */,
-				8EA84BC01DC1A6F900AB1BCB /* MKWebViewController.h */,
-				8EA84BC11DC1A6F900AB1BCB /* MKWebViewController.m */,
 				8EA84BAF1DC1A63D00AB1BCB /* Main.storyboard */,
 				8EA84BB21DC1A63D00AB1BCB /* Assets.xcassets */,
 				8EA84BB41DC1A63D00AB1BCB /* LaunchScreen.storyboard */,
@@ -103,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				8EA84BA71DC1A63D00AB1BCB /* main.m */,
+				8E1067BA1DFF923E002B6E52 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -158,7 +216,8 @@
 				TargetAttributes = {
 					8EA84BA21DC1A63D00AB1BCB = {
 						CreatedOnToolsVersion = 8.0;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = P7ST84G85A;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -248,12 +307,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E1067BE1DFF93ED002B6E52 /* NSLayoutConstraintViewController.m in Sources */,
 				8E0166111DCB1A3E0080E4AE /* WeakDelegate.m in Sources */,
-				8EA84BC21DC1A6F900AB1BCB /* MKWebViewController.m in Sources */,
+				8E1067C31DFF9415002B6E52 /* MKWebViewController.m in Sources */,
+				8E1067C41DFF9415002B6E52 /* UIWebViewController.m in Sources */,
+				8E1067B81DFF9131002B6E52 /* NSString+CN.m in Sources */,
 				8EA84BAE1DC1A63D00AB1BCB /* ViewController.m in Sources */,
 				8EA84BAB1DC1A63D00AB1BCB /* AppDelegate.m in Sources */,
+				8E1067B11DFF90B5002B6E52 /* FMYUtils.m in Sources */,
 				8EA84BA81DC1A63D00AB1BCB /* main.m in Sources */,
-				8EA84BBF1DC1A6EE00AB1BCB /* UIWebViewController.m in Sources */,
+				8E1067B51DFF9126002B6E52 /* UIView+Positioning.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,10 +437,16 @@
 			baseConfigurationReference = DEE9B06E3F2255BBE4A32881 /* Pods-XWJSC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = P7ST84G85A;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/XWJSC/PrefixHeader.pch";
 				INFOPLIST_FILE = XWJSC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = fmylove.XWJSC;
+				PRODUCT_BUNDLE_IDENTIFIER = com.newspy.topnews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7d3383fb-11d6-4602-ae0a-8939cbe48c21";
+				PROVISIONING_PROFILE_SPECIFIER = 20161026distr;
 			};
 			name = Debug;
 		};
@@ -386,10 +455,16 @@
 			baseConfigurationReference = 1C2B8F870315E0DD81BF67E7 /* Pods-XWJSC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = P7ST84G85A;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/XWJSC/PrefixHeader.pch";
 				INFOPLIST_FILE = XWJSC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = fmylove.XWJSC;
+				PRODUCT_BUNDLE_IDENTIFIER = com.newspy.topnews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7d3383fb-11d6-4602-ae0a-8939cbe48c21";
+				PROVISIONING_PROFILE_SPECIFIER = 20161026distr;
 			};
 			name = Release;
 		};

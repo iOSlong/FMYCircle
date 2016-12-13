@@ -72,6 +72,7 @@
     [self loadWebContent];
     
     
+    NSLog(@"===============homePath =\n %@",NSHomeDirectory());
 }
 
 - (void)loadLocalItems {
@@ -223,6 +224,9 @@
     self.jsContext = nil;
     [self.webView removeFromSuperview];
     self.webView = nil;
+    
+//    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:UIApplicationOpenSettingsURLString]];
+
 }
 
 - (void)dealloc {
