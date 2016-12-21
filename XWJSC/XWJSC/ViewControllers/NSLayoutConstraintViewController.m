@@ -138,13 +138,13 @@
     
     
     
-//    view2.translatesAutoresizingMaskIntoConstraints = NO;
-////    NSDictionary * metrics  = @{@"left":@5,@"right":@5,@"height":@150.0};
-//    NSString * format       = @"H:|-[view2(200.0)]";
-//    NSDictionary *views2    = @{@"view2":view2};
-//    NSArray *constraintsH2  = [NSLayoutConstraint constraintsWithVisualFormat:format options:NSLayoutFormatDirectionLeadingToTrailing metrics:nil views:views2];
-//    [view2 addConstraints:constraintsH2];
-//    
+    view2.translatesAutoresizingMaskIntoConstraints = NO;
+//    NSDictionary * metrics  = @{@"left":@5,@"right":@5,@"height":@150.0};
+    NSString * format       = @"[view2(200.0,30)]";
+    NSDictionary *views2    = @{@"view2":view2};
+    NSArray *constraintsH2  = [NSLayoutConstraint constraintsWithVisualFormat:format options:NSLayoutFormatDirectionLeadingToTrailing metrics:nil views:views2];
+    [view2 addConstraints:constraintsH2];
+//
 //
 //    NSString * format2       = @"V:|-[view2(20.0)]";
 //    NSArray *constraintsV2  = [NSLayoutConstraint constraintsWithVisualFormat:format2 options:NSLayoutFormatDirectionLeadingToTrailing metrics:nil views:views2];

@@ -24,6 +24,8 @@
 		8EA84BB11DC1A63D00AB1BCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EA84BAF1DC1A63D00AB1BCB /* Main.storyboard */; };
 		8EA84BB31DC1A63D00AB1BCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EA84BB21DC1A63D00AB1BCB /* Assets.xcassets */; };
 		8EA84BB61DC1A63D00AB1BCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EA84BB41DC1A63D00AB1BCB /* LaunchScreen.storyboard */; };
+		8ECE89AD1E0A630900492AE6 /* XMLSchemaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECE89AC1E0A630900492AE6 /* XMLSchemaViewController.m */; };
+		8ECE89B11E0A6C0F00492AE6 /* RegionCountry.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECE89B01E0A6C0F00492AE6 /* RegionCountry.m */; };
 		BF6CDE607E0733D0DD691B3F /* libPods-XWJSC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA7572539D6EDB362B086F2D /* libPods-XWJSC.a */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +64,10 @@
 		8EA84BB21DC1A63D00AB1BCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8EA84BB51DC1A63D00AB1BCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8EA84BB71DC1A63D00AB1BCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8ECE89AB1E0A630900492AE6 /* XMLSchemaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLSchemaViewController.h; sourceTree = "<group>"; };
+		8ECE89AC1E0A630900492AE6 /* XMLSchemaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLSchemaViewController.m; sourceTree = "<group>"; };
+		8ECE89AF1E0A6C0F00492AE6 /* RegionCountry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegionCountry.h; sourceTree = "<group>"; };
+		8ECE89B01E0A6C0F00492AE6 /* RegionCountry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegionCountry.m; sourceTree = "<group>"; };
 		AA7572539D6EDB362B086F2D /* libPods-XWJSC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XWJSC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEE9B06E3F2255BBE4A32881 /* Pods-XWJSC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XWJSC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XWJSC/Pods-XWJSC.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -111,6 +117,8 @@
 				8E1067C21DFF9415002B6E52 /* UIWebViewController.m */,
 				8E1067BC1DFF93ED002B6E52 /* NSLayoutConstraintViewController.h */,
 				8E1067BD1DFF93ED002B6E52 /* NSLayoutConstraintViewController.m */,
+				8ECE89AB1E0A630900492AE6 /* XMLSchemaViewController.h */,
+				8ECE89AC1E0A630900492AE6 /* XMLSchemaViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -144,6 +152,7 @@
 		8EA84BA51DC1A63D00AB1BCB /* XWJSC */ = {
 			isa = PBXGroup;
 			children = (
+				8ECE89AE1E0A6BD600492AE6 /* Models */,
 				8E1067C51DFF9575002B6E52 /* Constants */,
 				8E1067BB1DFF9383002B6E52 /* ViewControllers */,
 				8E1067B21DFF90C8002B6E52 /* Categories */,
@@ -173,6 +182,15 @@
 				8E1067BA1DFF923E002B6E52 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8ECE89AE1E0A6BD600492AE6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8ECE89AF1E0A6C0F00492AE6 /* RegionCountry.h */,
+				8ECE89B01E0A6C0F00492AE6 /* RegionCountry.m */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		C93202AAF3696A0ED36FDD3E /* Frameworks */ = {
@@ -319,6 +337,8 @@
 			files = (
 				8E1067C91DFF9746002B6E52 /* UIImageView+FMY.m in Sources */,
 				8E1067BE1DFF93ED002B6E52 /* NSLayoutConstraintViewController.m in Sources */,
+				8ECE89B11E0A6C0F00492AE6 /* RegionCountry.m in Sources */,
+				8ECE89AD1E0A630900492AE6 /* XMLSchemaViewController.m in Sources */,
 				8E0166111DCB1A3E0080E4AE /* WeakDelegate.m in Sources */,
 				8E1067C31DFF9415002B6E52 /* MKWebViewController.m in Sources */,
 				8E1067C41DFF9415002B6E52 /* UIWebViewController.m in Sources */,

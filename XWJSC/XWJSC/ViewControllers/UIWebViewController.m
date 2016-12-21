@@ -142,6 +142,7 @@
             NSLog(@"%@",jsValue);
             self.textField.text = [NSString stringWithFormat:@"js back:%@",jsValue];
         }
+        
     }
 }
 
@@ -207,6 +208,8 @@
         }
         return [NSNumber numberWithInteger:2000];
     };
+    
+    
     
     
     //     JSExportProtocalDelegate 注册协议方法。
