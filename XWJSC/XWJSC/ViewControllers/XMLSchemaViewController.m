@@ -36,6 +36,7 @@
     self.tableView.dataSource = self;
     [self.view addSubview:self.tableView];
     
+        
     
     [self netGetCityList];
     
@@ -83,20 +84,36 @@
     [UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
     NSLog(@"error = %@",error);
     
+    if (error == nil) {
+        [self xmlParseFromData:_muData];
+        
+        NSString *dataStr = [[NSString alloc] initWithData:_muData encoding:NSUTF8StringEncoding];
+        NSError *error = nil;
+        [dataStr writeToFile:@"/Users/xuewu.long/Desktop/github/fmy/FMYCircle/XWJSC/XWJSC/Sources/netMessage" atomically:YES encoding:NSUTF8StringEncoding error:&error];
+        NSLog(@"error= %@",error);
+        
+    }else{
+        NSString *dataStr = [NSString stringWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"netMessage" ofType:nil] encoding:NSUTF8StringEncoding error:nil];
+        if (dataStr) {
+            NSData *data = [dataStr dataUsingEncoding:NSUTF8StringEncoding];
+            [self xmlParseFromData:data];
+        }
+        else{
+            NSLog(@"%@",[error.userInfo objectForKey:@"NSLocalizedDescription"]);
+        }
+    }
+}
+
+- (void)xmlParseFromData:(NSData *)data {
     // TODO , 搁置到后台线程中去解析处理。
-    NSXMLParser *par  = [[NSXMLParser alloc] initWithData:_muData];
+    NSXMLParser *par  = [[NSXMLParser alloc] initWithData:data];
     par.delegate = self;
     [par parse];
-
-    NSString *dataStr = [[NSString alloc] initWithData:_muData encoding:NSUTF8StringEncoding];
-    NSDictionary *dataDict = [NSJSONSerialization JSONObjectWithData:_muData options:NSJSONReadingMutableContainers error:nil];
-    
 }
 
 - (void)URLSession:(NSURLSession *)session task:(NSURLSessionTask *)task didFinishCollectingMetrics:(NSURLSessionTaskMetrics *)metrics{
     NSLog(@"%@",session);
 }
-
 
 
 

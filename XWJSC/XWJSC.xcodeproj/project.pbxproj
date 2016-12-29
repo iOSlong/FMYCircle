@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		802B0E84A7F11DFB56F93223 /* Pods_XWJSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2554747B1ECFEFB0F23A0579 /* Pods_XWJSC.framework */; };
 		8E01660A1DC9F3A80080E4AE /* uiweb.html in Resources */ = {isa = PBXBuildFile; fileRef = 8E0166091DC9F3A80080E4AE /* uiweb.html */; };
 		8E01660E1DCAE68A0080E4AE /* mkweb.html in Resources */ = {isa = PBXBuildFile; fileRef = 8E01660D1DCAE68A0080E4AE /* mkweb.html */; };
 		8E0166111DCB1A3E0080E4AE /* WeakDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0166101DCB1A3E0080E4AE /* WeakDelegate.m */; };
@@ -18,6 +19,10 @@
 		8E1067C41DFF9415002B6E52 /* UIWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1067C21DFF9415002B6E52 /* UIWebViewController.m */; };
 		8E1067C91DFF9746002B6E52 /* UIImageView+FMY.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1067C81DFF9746002B6E52 /* UIImageView+FMY.m */; };
 		8E1067CC1DFFC945002B6E52 /* UIView+NSLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1067CB1DFFC945002B6E52 /* UIView+NSLayout.m */; };
+		8E668A211E14E3BE00F576DB /* XMLImageMaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E668A201E14E3BE00F576DB /* XMLImageMaskViewController.m */; };
+		8E668A251E14E7A100F576DB /* moonCity.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E668A231E14E7A100F576DB /* moonCity.png */; };
+		8E668A261E14E7A100F576DB /* moonStarNight.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E668A241E14E7A100F576DB /* moonStarNight.png */; };
+		8E668A281E14E7F700F576DB /* moonTree.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E668A271E14E7F700F576DB /* moonTree.png */; };
 		8EA84BA81DC1A63D00AB1BCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA84BA71DC1A63D00AB1BCB /* main.m */; };
 		8EA84BAB1DC1A63D00AB1BCB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA84BAA1DC1A63D00AB1BCB /* AppDelegate.m */; };
 		8EA84BAE1DC1A63D00AB1BCB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA84BAD1DC1A63D00AB1BCB /* ViewController.m */; };
@@ -26,11 +31,16 @@
 		8EA84BB61DC1A63D00AB1BCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EA84BB41DC1A63D00AB1BCB /* LaunchScreen.storyboard */; };
 		8ECE89AD1E0A630900492AE6 /* XMLSchemaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECE89AC1E0A630900492AE6 /* XMLSchemaViewController.m */; };
 		8ECE89B11E0A6C0F00492AE6 /* RegionCountry.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECE89B01E0A6C0F00492AE6 /* RegionCountry.m */; };
-		BF6CDE607E0733D0DD691B3F /* libPods-XWJSC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA7572539D6EDB362B086F2D /* libPods-XWJSC.a */; };
+		8EF340231E10C3CC00ACC825 /* netMessage in Resources */ = {isa = PBXBuildFile; fileRef = 8EF340221E10C3CC00ACC825 /* netMessage */; };
+		8EF340271E10C8AA00ACC825 /* XWJLibsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF340261E10C8AA00ACC825 /* XWJLibsTableViewController.m */; };
+		8EF340301E10CBD200ACC825 /* XMRACBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF3402F1E10CBD200ACC825 /* XMRACBaseViewController.m */; };
+		8EF340351E10DE8500ACC825 /* MTTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF340341E10DE8500ACC825 /* MTTest.swift */; };
+		8EFE723C1E11059100934A13 /* XWARCSignlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFE723B1E11059100934A13 /* XWARCSignlView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1C2B8F870315E0DD81BF67E7 /* Pods-XWJSC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XWJSC.release.xcconfig"; path = "Pods/Target Support Files/Pods-XWJSC/Pods-XWJSC.release.xcconfig"; sourceTree = "<group>"; };
+		2554747B1ECFEFB0F23A0579 /* Pods_XWJSC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XWJSC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E0166091DC9F3A80080E4AE /* uiweb.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = uiweb.html; sourceTree = "<group>"; };
 		8E01660D1DCAE68A0080E4AE /* mkweb.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = mkweb.html; sourceTree = "<group>"; };
 		8E01660F1DCB1A3E0080E4AE /* WeakDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeakDelegate.h; sourceTree = "<group>"; };
@@ -53,7 +63,11 @@
 		8E1067C81DFF9746002B6E52 /* UIImageView+FMY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+FMY.m"; sourceTree = "<group>"; };
 		8E1067CA1DFFC945002B6E52 /* UIView+NSLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+NSLayout.h"; sourceTree = "<group>"; };
 		8E1067CB1DFFC945002B6E52 /* UIView+NSLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+NSLayout.m"; sourceTree = "<group>"; };
-		8E760FC31DD2CDEB00BF0FA3 /* 57010F03-57EA-4225-B63B-A5FD0D4A783B.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "57010F03-57EA-4225-B63B-A5FD0D4A783B.jpg"; sourceTree = "<group>"; };
+		8E668A1F1E14E3BE00F576DB /* XMLImageMaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLImageMaskViewController.h; sourceTree = "<group>"; };
+		8E668A201E14E3BE00F576DB /* XMLImageMaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLImageMaskViewController.m; sourceTree = "<group>"; };
+		8E668A231E14E7A100F576DB /* moonCity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moonCity.png; sourceTree = "<group>"; };
+		8E668A241E14E7A100F576DB /* moonStarNight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moonStarNight.png; sourceTree = "<group>"; };
+		8E668A271E14E7F700F576DB /* moonTree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moonTree.png; sourceTree = "<group>"; };
 		8EA84BA31DC1A63D00AB1BCB /* XWJSC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XWJSC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EA84BA71DC1A63D00AB1BCB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8EA84BA91DC1A63D00AB1BCB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -68,7 +82,15 @@
 		8ECE89AC1E0A630900492AE6 /* XMLSchemaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLSchemaViewController.m; sourceTree = "<group>"; };
 		8ECE89AF1E0A6C0F00492AE6 /* RegionCountry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegionCountry.h; sourceTree = "<group>"; };
 		8ECE89B01E0A6C0F00492AE6 /* RegionCountry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegionCountry.m; sourceTree = "<group>"; };
-		AA7572539D6EDB362B086F2D /* libPods-XWJSC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XWJSC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EF340221E10C3CC00ACC825 /* netMessage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = netMessage; sourceTree = "<group>"; };
+		8EF340251E10C8AA00ACC825 /* XWJLibsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWJLibsTableViewController.h; sourceTree = "<group>"; };
+		8EF340261E10C8AA00ACC825 /* XWJLibsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWJLibsTableViewController.m; sourceTree = "<group>"; };
+		8EF3402E1E10CBD200ACC825 /* XMRACBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMRACBaseViewController.h; sourceTree = "<group>"; };
+		8EF3402F1E10CBD200ACC825 /* XMRACBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMRACBaseViewController.m; sourceTree = "<group>"; };
+		8EF340331E10DE8500ACC825 /* XWJSC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XWJSC-Bridging-Header.h"; sourceTree = "<group>"; };
+		8EF340341E10DE8500ACC825 /* MTTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTTest.swift; sourceTree = "<group>"; };
+		8EFE723A1E11059100934A13 /* XWARCSignlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWARCSignlView.h; sourceTree = "<group>"; };
+		8EFE723B1E11059100934A13 /* XWARCSignlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWARCSignlView.m; sourceTree = "<group>"; };
 		DEE9B06E3F2255BBE4A32881 /* Pods-XWJSC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XWJSC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XWJSC/Pods-XWJSC.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF6CDE607E0733D0DD691B3F /* libPods-XWJSC.a in Frameworks */,
+				802B0E84A7F11DFB56F93223 /* Pods_XWJSC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,8 +139,12 @@
 				8E1067C21DFF9415002B6E52 /* UIWebViewController.m */,
 				8E1067BC1DFF93ED002B6E52 /* NSLayoutConstraintViewController.h */,
 				8E1067BD1DFF93ED002B6E52 /* NSLayoutConstraintViewController.m */,
+				8E668A1F1E14E3BE00F576DB /* XMLImageMaskViewController.h */,
+				8E668A201E14E3BE00F576DB /* XMLImageMaskViewController.m */,
 				8ECE89AB1E0A630900492AE6 /* XMLSchemaViewController.h */,
 				8ECE89AC1E0A630900492AE6 /* XMLSchemaViewController.m */,
+				8EF340251E10C8AA00ACC825 /* XWJLibsTableViewController.h */,
+				8EF340261E10C8AA00ACC825 /* XWJLibsTableViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -129,6 +155,16 @@
 				8E1067C61DFF95A0002B6E52 /* ConstantUI.h */,
 			);
 			path = Constants;
+			sourceTree = "<group>";
+		};
+		8E668A221E14E78B00F576DB /* images */ = {
+			isa = PBXGroup;
+			children = (
+				8E668A231E14E7A100F576DB /* moonCity.png */,
+				8E668A241E14E7A100F576DB /* moonStarNight.png */,
+				8E668A271E14E7F700F576DB /* moonTree.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 		8EA84B9A1DC1A63D00AB1BCB = {
@@ -152,12 +188,14 @@
 		8EA84BA51DC1A63D00AB1BCB /* XWJSC */ = {
 			isa = PBXGroup;
 			children = (
+				8EFE72391E11052200934A13 /* CustomeViews */,
+				8EF340241E10C85A00ACC825 /* LibTools */,
+				8EF340211E10C3A000ACC825 /* Sources */,
 				8ECE89AE1E0A6BD600492AE6 /* Models */,
 				8E1067C51DFF9575002B6E52 /* Constants */,
 				8E1067BB1DFF9383002B6E52 /* ViewControllers */,
 				8E1067B21DFF90C8002B6E52 /* Categories */,
 				8E1067AE1DFF8FE6002B6E52 /* FMYUtils */,
-				8E760FC31DD2CDEB00BF0FA3 /* 57010F03-57EA-4225-B63B-A5FD0D4A783B.jpg */,
 				8EA84BA91DC1A63D00AB1BCB /* AppDelegate.h */,
 				8EA84BAA1DC1A63D00AB1BCB /* AppDelegate.m */,
 				8EA84BAC1DC1A63D00AB1BCB /* ViewController.h */,
@@ -193,10 +231,39 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		8EF340211E10C3A000ACC825 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				8E668A221E14E78B00F576DB /* images */,
+				8EF340221E10C3CC00ACC825 /* netMessage */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		8EF340241E10C85A00ACC825 /* LibTools */ = {
+			isa = PBXGroup;
+			children = (
+				8EF3402E1E10CBD200ACC825 /* XMRACBaseViewController.h */,
+				8EF3402F1E10CBD200ACC825 /* XMRACBaseViewController.m */,
+				8EF340341E10DE8500ACC825 /* MTTest.swift */,
+				8EF340331E10DE8500ACC825 /* XWJSC-Bridging-Header.h */,
+			);
+			path = LibTools;
+			sourceTree = "<group>";
+		};
+		8EFE72391E11052200934A13 /* CustomeViews */ = {
+			isa = PBXGroup;
+			children = (
+				8EFE723A1E11059100934A13 /* XWARCSignlView.h */,
+				8EFE723B1E11059100934A13 /* XWARCSignlView.m */,
+			);
+			path = CustomeViews;
+			sourceTree = "<group>";
+		};
 		C93202AAF3696A0ED36FDD3E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AA7572539D6EDB362B086F2D /* libPods-XWJSC.a */,
+				2554747B1ECFEFB0F23A0579 /* Pods_XWJSC.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -245,6 +312,7 @@
 					8EA84BA21DC1A63D00AB1BCB = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = P7ST84G85A;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Manual;
 					};
 				};
@@ -272,9 +340,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EF340231E10C3CC00ACC825 /* netMessage in Resources */,
+				8E668A261E14E7A100F576DB /* moonStarNight.png in Resources */,
 				8EA84BB61DC1A63D00AB1BCB /* LaunchScreen.storyboard in Resources */,
 				8EA84BB31DC1A63D00AB1BCB /* Assets.xcassets in Resources */,
 				8E01660E1DCAE68A0080E4AE /* mkweb.html in Resources */,
+				8E668A251E14E7A100F576DB /* moonCity.png in Resources */,
+				8E668A281E14E7F700F576DB /* moonTree.png in Resources */,
 				8EA84BB11DC1A63D00AB1BCB /* Main.storyboard in Resources */,
 				8E01660A1DC9F3A80080E4AE /* uiweb.html in Resources */,
 			);
@@ -310,7 +382,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		929AC4B2FA73462E59B3955E /* [CP] Embed Pods Frameworks */ = {
@@ -338,12 +410,17 @@
 				8E1067C91DFF9746002B6E52 /* UIImageView+FMY.m in Sources */,
 				8E1067BE1DFF93ED002B6E52 /* NSLayoutConstraintViewController.m in Sources */,
 				8ECE89B11E0A6C0F00492AE6 /* RegionCountry.m in Sources */,
+				8E668A211E14E3BE00F576DB /* XMLImageMaskViewController.m in Sources */,
+				8EF340351E10DE8500ACC825 /* MTTest.swift in Sources */,
 				8ECE89AD1E0A630900492AE6 /* XMLSchemaViewController.m in Sources */,
 				8E0166111DCB1A3E0080E4AE /* WeakDelegate.m in Sources */,
+				8EF340271E10C8AA00ACC825 /* XWJLibsTableViewController.m in Sources */,
 				8E1067C31DFF9415002B6E52 /* MKWebViewController.m in Sources */,
 				8E1067C41DFF9415002B6E52 /* UIWebViewController.m in Sources */,
 				8E1067B81DFF9131002B6E52 /* NSString+CN.m in Sources */,
+				8EF340301E10CBD200ACC825 /* XMRACBaseViewController.m in Sources */,
 				8EA84BAE1DC1A63D00AB1BCB /* ViewController.m in Sources */,
+				8EFE723C1E11059100934A13 /* XWARCSignlView.m in Sources */,
 				8E1067CC1DFFC945002B6E52 /* UIView+NSLayout.m in Sources */,
 				8EA84BAB1DC1A63D00AB1BCB /* AppDelegate.m in Sources */,
 				8E1067B11DFF90B5002B6E52 /* FMYUtils.m in Sources */,
@@ -469,7 +546,9 @@
 			baseConfigurationReference = DEE9B06E3F2255BBE4A32881 /* Pods-XWJSC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = P7ST84G85A;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/XWJSC/PrefixHeader.pch";
 				INFOPLIST_FILE = XWJSC/Info.plist;
@@ -479,6 +558,9 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "7d3383fb-11d6-4602-ae0a-8939cbe48c21";
 				PROVISIONING_PROFILE_SPECIFIER = 20161026distr;
+				SWIFT_OBJC_BRIDGING_HEADER = "XWJSC/LibTools/XWJSC-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -487,7 +569,9 @@
 			baseConfigurationReference = 1C2B8F870315E0DD81BF67E7 /* Pods-XWJSC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = P7ST84G85A;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/XWJSC/PrefixHeader.pch";
 				INFOPLIST_FILE = XWJSC/Info.plist;
@@ -497,6 +581,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "7d3383fb-11d6-4602-ae0a-8939cbe48c21";
 				PROVISIONING_PROFILE_SPECIFIER = 20161026distr;
+				SWIFT_OBJC_BRIDGING_HEADER = "XWJSC/LibTools/XWJSC-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
