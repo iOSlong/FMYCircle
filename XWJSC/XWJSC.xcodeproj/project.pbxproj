@@ -322,6 +322,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -552,7 +553,7 @@
 				DEVELOPMENT_TEAM = P7ST84G85A;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/XWJSC/PrefixHeader.pch";
 				INFOPLIST_FILE = XWJSC/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.newspy.topnews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -560,7 +561,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = 20161026distr;
 				SWIFT_OBJC_BRIDGING_HEADER = "XWJSC/LibTools/XWJSC-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -575,14 +576,14 @@
 				DEVELOPMENT_TEAM = P7ST84G85A;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/XWJSC/PrefixHeader.pch";
 				INFOPLIST_FILE = XWJSC/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.newspy.topnews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "7d3383fb-11d6-4602-ae0a-8939cbe48c21";
 				PROVISIONING_PROFILE_SPECIFIER = 20161026distr;
 				SWIFT_OBJC_BRIDGING_HEADER = "XWJSC/LibTools/XWJSC-Bridging-Header.h";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
